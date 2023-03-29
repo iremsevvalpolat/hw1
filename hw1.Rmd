@@ -1,0 +1,75 @@
+---
+title: "Homework 1"
+author: "iREM ŞEVVAL POLAT, 19080413"
+output: pdf_document
+---
+
+```{r global_options, include=FALSE}
+# Do not delete or modify this chunk.
+# We will cover chunk options later.
+# This is required for Question 7
+library(knitr)
+opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
+```
+
+**Question 1** With Markdown write a sentence that has one word in bold.
+
+My favorite teacher is __Emrah Er__.
+
+**Question 2** With Markdown write a sentence that has one word in italic.
+
+My favorite teacher is _Emrah Er_.
+
+**Question 3** With Markdown write a sentence that has one word in italic bold.
+
+My favorite teacher is **_Emrah Er_**
+
+**Question 4** With Markdown write an unordered list with three items.
+
+ * cat
+ * coke
+ * car
+
+**Question 5** With Markdown write an ordered list with three items.
+
+1. coke
+2. cat
+3. car
+
+**Question 6** With Markdown give a link to your favorite webpage.
+
+[TikTok](https://www.tiktok.com/tr-TR)
+
+**Question 7** With Markdown add a cat picture.
+
+[cat](https://img-s2.onedio.com/id-62e3ae62752516981dc4f891/rev-0/w-620/f-jpg/s-99fb130edfc0850aac831013236bb232b7d1c173.jpg)
+
+
+
+**Question 8** With Rmarkdown insert a code chunk and give an example of a simple mathematical calculation in it.
+
+```{r}
+x=5
+y=4
+x+y
+```
+
+
+
+
+**Question 9** With $LaTeX$ write your favorite equation in block form.
+
+$$
+\mathbb{E}[X] = \sigma_0 / \sigma_1y
+$$
+
+
+
+**Question 10** In a code chunk calculate 3 + 4.
+
+```{r}
+3+4
+
+
+```
+
